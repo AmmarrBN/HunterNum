@@ -5,3 +5,5 @@ rich
 colorama
 pyfiglet
 tqdm 
+pystyle
+argparse
