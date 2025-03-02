@@ -9,6 +9,7 @@ $ pkg install git python curl jq nodejs
 $ git clone https://github.com/AmmarrBN/HunterNum
 $ cd HunterNum
 $ pip install -r requirements.txt
+$ bash main.sh
 $ python hunternum.py -h
 ```
 ## Kali Linux
@@ -33,6 +34,7 @@ source myenv/bin/activate
 $ git clone https://github.com/AmmarrBN/HunterNum
 $ cd HunterNum
 $ pip install -r requirements.txt
+# bash main.sh
 $ python hunternum.py -h
 ```
 # Out Env
