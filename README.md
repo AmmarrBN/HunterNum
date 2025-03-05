@@ -5,13 +5,16 @@ Cek E wallet (Dana, Ovo, Gopay, Spay, Gopay Driver) &amp; Sniff cek register in 
 # Instalation
 ## TERMUX USER
 ```python
-$ pkg install git python curl jq nodejs
-$ npm -g i bash-obfuscate
-$ pip install rich
-$ pip install rich-cli
-$ git clone https://github.com/AmmarrBN/HunterNum
-$ pip install -r requirements.txt
-$ bash run.sh -h
+pkg update && pkg upgrade
+pkg install python
+apt-get install curl jq git ossp-uuid ncurses-utils xz-utils nodejs
+apt-get install nodejs-lts python
+npm -g i bash-obfuscate
+pkg install python2
+git clone https://github.com/AmmarrBN/HunterNum
+cd HunterNum
+pip install -r requirements.txt
+bash run.sh -h
 ```
 ## Kali Linux
 ```python
