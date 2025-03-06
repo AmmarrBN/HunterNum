@@ -9,3 +9,4 @@ pystyle
 argparse
 pycryptodome
 AES
+codecs
