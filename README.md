@@ -7,14 +7,11 @@ Cek E wallet (Dana, Ovo, Gopay, Spay, Gopay Driver) &amp; Sniff cek register in 
 ```python
 pkg update && pkg upgrade
 pkg install python
-apt-get install curl jq git ossp-uuid ncurses-utils xz-utils nodejs
-apt-get install nodejs-lts python
-npm -g i bash-obfuscate
-pkg install python2
+pkg install git
 git clone https://github.com/AmmarrBN/HunterNum
 cd HunterNum
 pip install -r requirements.txt
-bash run.sh -h
+python hunternum.py -h
 ```
 ## Kali Linux
 ```python
@@ -38,7 +35,7 @@ source myenv/bin/activate
 $ git clone https://github.com/AmmarrBN/HunterNum
 $ cd HunterNum
 $ pip install -r requirements.txt
-$ bash run.sh -h
+$ python hunternum.py -h
 ```
 # Out Env
 ```
